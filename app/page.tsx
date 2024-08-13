@@ -84,10 +84,11 @@ export default function Home() {
         {hourIndex !== null && day ? (
           JSON.stringify(data.Schedule[hourIndex][day as keyof DailySchedule])
         ) : (
-          "No class information available gwquefgwefhiwqef"
+          "No class information available gwquefgwefhiwqef ghdfuas"
         )}
         <button onClick={handleRefresh} className="bg-red-500"> Refresh </button>
         <div>
+          <h1>Hello</h1>
         </div>
       </div>
     </>
